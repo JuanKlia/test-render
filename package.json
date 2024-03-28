@@ -4,11 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node index"
+    "start": "node index.js",
+    "build": "parcel build index.ts"
   },
   "dependencies": {
     "express": "^4.19.2",
-    "ts-node": "10.9.2",
-    "typescript": "^4.0.0"
+    "parcel": "^2.12.0"
   }
 }
