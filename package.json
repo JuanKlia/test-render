@@ -4,7 +4,7 @@
   "main": "index.js",
   "author": "<juankliabaras@gmail.com>",
   "scripts": {
-    "dev":"nodemon index.ts"
+    
   },
   "license": "MIT",
   "dependencies": {
