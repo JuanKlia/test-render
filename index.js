@@ -1,6 +1,7 @@
-import * as express from "express";
+import express from "express";
 
 const app = express();
+console.log(app)
 const port = 3000;
 
 app.get("/users", (req, res) => {
